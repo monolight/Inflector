@@ -1,18 +1,19 @@
 {
     "name": "ml/inflector",
     "description": "Inflector Urlizer from Doctrine 1.2 in a 5.3 namespaced library",
-    "license": "LGPL-3.0",
+    "license": "LGPL-3.0-only",
     "authors": [
         {
             "name": "Pete Hatton",
             "email": "pete@monolight.org"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": ">=7.4"
+    },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.1.x-dev"
         }
     },
     "autoload":
