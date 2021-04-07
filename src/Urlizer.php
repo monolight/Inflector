@@ -400,11 +400,7 @@ class Urlizer
      */
     private static function postProcessText($text, $separator)
     {
-        if (function_exists('mb_strtolower')) {
-            $text = mb_strtolower($text);
-        } else {
-            $text = strtolower($text);
-        }
+        $text = mb_strtolower($text);
 
         // Remove all none word characters
         $text = preg_replace('/\W/', ' ', $text);
